@@ -13,10 +13,10 @@ namespace HMT_StationeryMnt.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class HMT_StationeryMntEntities : DbContext
+    public partial class HMTStationeryEntities : DbContext
     {
-        public HMT_StationeryMntEntities()
-            : base("name=HMT_StationeryMntEntities")
+        public HMTStationeryEntities()
+            : base("name=HMTStationeryEntities")
         {
         }
     
@@ -30,7 +30,6 @@ namespace HMT_StationeryMnt.Models
         public virtual DbSet<Request> Requests { get; set; }
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<Stationery> Stationeries { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<User> Users { get; set; }
     }
 }

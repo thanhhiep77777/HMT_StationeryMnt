@@ -12,7 +12,7 @@ namespace HMT_StationeryMnt.Controllers
 {
     public class RoleController : Controller
     {
-        private HMT_StationeryMntEntities db = new HMT_StationeryMntEntities();
+        private HMTStationeryEntities db = new HMTStationeryEntities();
 
         // GET: Role
         public ActionResult Index()

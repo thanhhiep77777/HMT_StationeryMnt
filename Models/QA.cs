@@ -15,11 +15,11 @@ namespace HMT_StationeryMnt.Models
     public partial class QA
     {
         public int ID { get; set; }
+        public Nullable<int> UserID { get; set; }
         public Nullable<System.DateTime> Date { get; set; }
         public string Question { get; set; }
         public string Answer { get; set; }
         public Nullable<int> Status { get; set; }
-        public Nullable<int> UserID { get; set; }
     
         public virtual User User { get; set; }
     }
