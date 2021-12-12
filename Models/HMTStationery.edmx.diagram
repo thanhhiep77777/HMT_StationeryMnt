@@ -9,7 +9,7 @@
         <EntityTypeShape EntityType="HMT_StationeryMntModel.RequestDetail" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
         <EntityTypeShape EntityType="HMT_StationeryMntModel.Request" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="HMT_StationeryMntModel.Role" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="HMT_StationeryMntModel.Stationery" Width="1.5" PointX="2.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMT_StationeryMntModel.Stationery" Width="1.5" PointX="2.75" PointY="4.5" IsExpanded="true" />
         <EntityTypeShape EntityType="HMT_StationeryMntModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.625" IsExpanded="true" />
         <EntityTypeShape EntityType="HMT_StationeryMntModel.User" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
         <AssociationConnector Association="HMT_StationeryMntModel.FK__RequestDe__Reque__403A8C7D" ManuallyRouted="false" />
