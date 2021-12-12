@@ -6,13 +6,12 @@ using System.Web.Mvc;
 
 namespace HMT_StationeryMnt.Controllers
 {
-    public class UserController : Controller
+    public class AdminController : Controller
     {
-        // GET: User
+        // GET: Admin
         public ActionResult Index()
         {
             return View();
         }
-
     }
 }
